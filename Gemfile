@@ -19,7 +19,7 @@ gem "bcrypt", "~> 3.1.7"
 gem "rack-cors"
 gem "jwt"
 gem "blueprinter"
-gem "pagy", "~> 9.0"
+gem "pagy", "~> 43.4"
 gem "aws-sdk-s3", require: false
 
 group :development, :test do
