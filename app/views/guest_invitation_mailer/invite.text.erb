@@ -1,0 +1,12 @@
+Dear <%= @guest.first_name %>,
+
+<%= @message.body %>
+
+---
+Event: <%= @event.title %>
+Date: <%= @event.event_date %>
+Venue: <%= @event.venue || 'TBA' %>
+
+Your QR invitation code: <%= @guest.qr_code_token %>
+
+We look forward to celebrating with you!
